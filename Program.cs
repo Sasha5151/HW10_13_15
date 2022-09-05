@@ -33,36 +33,26 @@
 // 32679 -> 6
 
 
-// int num = new Random ().Next(0,10000);
-// int index = num.ToString().Length;
-// Console.Write(num);
+int num = new Random ().Next(0,10000);
+int index = num.ToString().Length;
+Console.Write(num);
     
-//     if (num < 100 )
-//      {
-//        Console.WriteLine(" третьей цифры нет"); 
-//      } 
-//     else
-//      {
-//        int c = 1;
-//         for (int i=index; i > 3; i--)
-//         {
-//             c = c * 10;
-//         }
-//         num = (num / c) % 10; 
-//         Console.WriteLine($" третья цифра числа :  {num} ");
-//      }     
+    if (num < 100 )
+     {
+       Console.WriteLine(" третьей цифры нет"); 
+     } 
+    else
+     {
+       int c = 1;
+        for (int i=index; i > 3; i--)
+        {
+            c = c * 10;
+        }
+        num = (num / c) % 10; 
+        Console.WriteLine($" третья цифра числа :  {num} ");
+     }     
 
 // Конец задачи 
-
-
-
-
-
-
-
-
-
-
 
 
 
