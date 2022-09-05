@@ -33,24 +33,24 @@
 // 32679 -> 6
 
 
-int num = new Random ().Next(0,10000);
-int index = num.ToString().Length;
-Console.Write(num);
+// int num = new Random ().Next(0,10000);
+// int index = num.ToString().Length;
+// Console.Write(num);
     
-    if (num < 100 )
-     {
-       Console.WriteLine(" третьей цифры нет"); 
-     } 
-    else
-     {
-       int c = 1;
-        for (int i=index; i > 3; i--)
-        {
-            c = c * 10;
-        }
-        num = (num / c) % 10; 
-        Console.WriteLine($" третья цифра числа :  {num} ");
-     }     
+//     if (num < 100 )
+//      {
+//        Console.WriteLine(" третьей цифры нет"); 
+//      } 
+//     else
+//      {
+//        int c = 1;
+//         for (int i=index; i > 3; i--)
+//         {
+//             c = c * 10;
+//         }
+//         num = (num / c) % 10; 
+//         Console.WriteLine($" третья цифра числа :  {num} ");
+//      }     
 
 // Конец задачи 
 
@@ -61,3 +61,24 @@ Console.Write(num);
 // 6 -> да
 // 7 -> да
 // 1 -> нет
+
+
+// Console.Write("Введите цифру обознычающую день недели от 1 до 7  : ");
+// int num = Convert.ToInt32(Console.ReadLine());
+//     if (num > 0 && num < 6) 
+//     {
+//       Console.WriteLine("Рабочий день ");
+//     }
+//     else 
+//         if (num == 6 || num == 7 )
+//         {
+//             Console.WriteLine("Выходной день ");
+//         } 
+//         else 
+//         {
+//              Console.WriteLine("Ошибка ввода  ");
+//         }
+
+
+
+ // Конец задачи 
